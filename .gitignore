@@ -1,0 +1,55 @@
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs (IntelliJ, VSCode, STS, Eclipse)
+# (Esto se aplicará a todas las carpetas)
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+*.iml
+*.iws
+*.ipr
+*.launch
+*.sublime-workspace
+.history/
+
+# Archivos de Backend (Spring Boot / Maven)
+# (Ignora la carpeta 'target' y '.mvn' donde sea que estén)
+target/
+.mvn/
+
+# Archivos de Frontend (Node / Angular)
+# (Usamos el nombre exacto de tu carpeta para ser específicos)
+/hotelsys-frontend/node_modules/
+/hotelsys-frontend/dist/
+/hotelsys-frontend/tmp/
+/hotelsys-frontend/out-tsc/
+/hotelsys-frontend/bazel-out/
+/hotelsys-frontend/.angular/cache/
+/hotelsys-frontend/.sass-cache/
+/hotelsys-frontend/coverage/
+
+# Archivos de Log y temporales
+npm-debug.log
+yarn-error.log
+connect.lock
+libpeerconnection.log
+testem.log
+typings
+
+# =======================================================
+# ARCHIVOS SENSIBLES (¡MUY IMPORTANTE!)
+# =======================================================
+
+# Ignora CUALQUIER archivo .env
+.env
+
+# Ignora el archivo de propiedades específico de tu API
+/hotelsys-api/src/main/resources/application.properties
